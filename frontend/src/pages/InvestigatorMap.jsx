@@ -52,7 +52,7 @@ const InvestigatorMap = () => {
               <div className="ml-10 flex items-baseline space-x-8">
                 <Link to="/" className="text-white px-3 py-2 rounded-md text-sm font-medium transition-colors hover:text-red-500">Overview</Link>
                 <Link to="/map" className="text-gray-400 hover:text-white border-b-2 border-red-500 px-3 py-2 rounded-md text-sm font-medium transition-colors">Investigator map</Link>
-                <a href="#" className="text-gray-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors">Dropbox</a>
+                <Link to="/dropbox" className="text-gray-400 hover:text-white hover:bg-gray-800 px-3 py-2 rounded-md text-sm font-medium transition-colors">Dropbox</Link>
               </div>
             </div>
           </div>
